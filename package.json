@@ -1,0 +1,24 @@
+{
+	"name": "streamflow",
+	"version": "1.0.0",
+	"description": "A MagicMirror² module that displays real-time streamflow data from the USGS",
+  	"main": "MMM-Streamflow.js",
+  	"repository": {
+    		"type": "git",
+    		"url": "git+https://github.com/colesandlin/MMM-Streamflow.git"
+  	},
+  	"keywords": [
+  		"usgs",
+		"magicmirror2"
+ 	],
+	"author": "Cole Sandlin",
+ 	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/colesandlin/MMM-Streamflow/issues"
+  	},
+  	"homepage": "https://github.com/colesandlin/MMM-Streamflow#readme",
+  	"dependencies": {
+  		"node-fetch": "^2.6.6",
+   		"jsonpath": "^1.1.1"
+  	}
+}
