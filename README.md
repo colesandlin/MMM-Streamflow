@@ -45,6 +45,6 @@ Here's an example configuration:
 |---|---|
 |`Type`|The reading returned. <br><br> **Possible values:** `"Temperature"`, `"Discharge"`, `"Gage height"`, `"Specific conductance"`, `"Dissolved oxygen"`, `"pH"`, `"Turbidity"` <br> **Default value:** `"Gage height"`|
 |`locationID`|The USGS site number for the location you want to monitor, which can be obtained [here](https://maps.waterdata.usgs.gov/mapper/index.html). <br><br> **Default value:** `"03255000"`|
-|`httpMethod`|The HTTP request method. <br><br> **Default value:** `GET`|
+|`httpMethod`|The HTTP request method. <br><br> **Default value:** `"GET"`|
 |`apiBase`|The USGS base URL. <br><br> **Default value:** `"https://waterservices.usgs.gov/nwis/iv/?format=json&sites="`|
 |`updateInterval`|How often new data is fetched, the default value is 15 minutes because USGS streamflow data is typically recorded at 15-minute intervals. <br><br> **Default value:** `15 * 60 * 1000`|
